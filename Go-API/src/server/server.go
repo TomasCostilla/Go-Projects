@@ -1,7 +1,9 @@
 package server
 
-import "fmt"
+import (
+	"api.com/src/router"
+)
 
 func Start() {
-	fmt.Println("Servidor arrancado en localhost:8080")
+	router.Router()
 }

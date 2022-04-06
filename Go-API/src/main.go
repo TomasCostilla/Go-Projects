@@ -1,6 +1,8 @@
 package main
 
-import "api.com/src/server"
+import (
+	"api.com/src/server"
+)
 
 func main() {
 	server.Start()
